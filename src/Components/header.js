@@ -38,8 +38,8 @@ const Header = () => {
         <img alt="menu/back icon"
           src={
             location.pathname === "/hangman"
-              ? "/images/icon-menu.svg"
-              : "/images/icon-back.svg"
+              ? "hangman-game/images/icon-menu.svg"
+              : "hangman-game/images/icon-back.svg"
           }
         />
       </div>
@@ -54,7 +54,7 @@ const Header = () => {
             className="health-bar-state"
           ></div>
         </div>
-        <img className="w-9" src="/images/icon-heart.svg" />
+        <img className="w-9" src="hangman-game/images/icon-heart.svg" />
       </div>
     </header>
   );

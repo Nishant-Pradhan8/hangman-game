@@ -1,7 +1,7 @@
 const HomeLogo = () => {
   return (
     <div className="home-logo-wrapper">
-      <img src="/images/logo.svg" alt="Logo" />
+      <img src="hangman-game/images/logo.svg" alt="Logo" />
     </div>
   );
 };
