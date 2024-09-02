@@ -4,7 +4,7 @@ import axios from 'axios'
 const useFetch = (selectedCat)=>{
     const [categories, setCategories]=useState([])
     const [categoryQn, setCategoryQn] = useState([])
-    const apiUrl = "https://raw.githubusercontent.com/Nishant-Pradhan8/json-data/main/data.json"
+    const apiUrl = "https://raw.githubusercontent.com/Nishant-Pradhan8/hangman-game/master/src/data/db.json"
     useEffect(()=>{
         const fetchData = async()=>{
             try{
