@@ -8,11 +8,8 @@
   }
   body {
     background-image: url(../public/images/background-mobile.svg);
-    background-position: center;
-    background-size: cover;
-    height: 100%;
     background-color: var(--background-color);
-    @apply font-mouse box-border m-0 p-0;
+    @apply font-mouse box-border m-0 p-0 bg-center bg-cover h-full;
   }
   @media (min-width: 425px) {
     body {
@@ -51,12 +48,8 @@
     border-right: 2px solid var(--background-color);
     border-left: 2px solid var(--background-color);
     border-bottom: 10px solid var(--background-color);
-    border-radius: 48px;
-    margin: 0rem 1.5rem;
-    padding: 0rem 2.5rem;
     box-shadow: inset 0 8px 0px 4px var(--primary-color);
-    padding-bottom: 2rem;
-    margin-top: 4rem;
+    @apply rounded-[48px] mx-6 px-10 pb-8 mt-16
   }
   .categories-wrapper {
     @apply h-full flex flex-col justify-center;
@@ -105,10 +98,9 @@
   }
   .header-title {
     background-image: linear-gradient(#67b6ff, white);
-    color: white;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    @apply text-3xl font-semibold leading-THL;
+    @apply text-white text-3xl font-semibold leading-THL;
   }
   .categories-main {
     @apply flex flex-col gap-4 justify-center items-center  pb-6;
@@ -133,9 +125,7 @@
     @apply w-14 bg-white h-4 rounded-half flex items-center px-1;
   }
   .health-bar-state {
-    background-color: #fc90fc;
-    height: 60%;
-    @apply z-10  rounded-half;
+    @apply z-10 h-[60%]  rounded-half bg-healthBar;
   }
 
   .hangman-main {

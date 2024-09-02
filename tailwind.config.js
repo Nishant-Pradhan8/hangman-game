@@ -14,6 +14,7 @@ module.exports = {
       },
       colors:{
         'paragraph':'#887DC0',
+        'healthBar':'#fc90fc'
       },
       rotate:{
         'y-180': 'rotateY(180deg)',
