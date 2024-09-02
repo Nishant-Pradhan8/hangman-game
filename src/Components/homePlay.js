@@ -11,7 +11,7 @@ const HomePlay = () => {
       onClick={handlePlay}
       className="play-icon-wrapper bg-gradient-to-b from-[#fc90fc] to-[#7199FF]"
     >
-      <img className="w-[7rem]" src="hangman-game/images/icon-play.svg" />
+      <img className="w-[7rem]" src="./images/icon-play.svg" />
     </div>
   );
 };
