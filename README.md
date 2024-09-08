@@ -5,7 +5,7 @@
     </section>
     <section id="demo">
         <h2>Demo</h2>
-        <p><a href="https://nishant-pradhan8.github.io/hangman-game/">Live Demo</a></p>
+        <p><a href="https://nishant-pradhan-8.github.io/hangman-game/">Live Demo</a></p>
     </section>
     <section id="features">
         <h2>Features</h2>
